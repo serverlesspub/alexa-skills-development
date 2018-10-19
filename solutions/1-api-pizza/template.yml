@@ -1,0 +1,31 @@
+AWSTemplateFormatVersion: 2010-09-09
+Transform: AWS::Serverless-2016-10-31
+
+Resources:
+  GetHello:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: index.handler
+      Runtime: nodejs8.10
+      Events:
+        HelloApi:
+          Type: Api
+          Properties:
+            Path: /hello
+            Method: GET
+  GetMyPizzas:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: list-pizzas.handler
+      Runtime: nodejs8.10
+      Events:
+        ListPizzasApi:
+          Type: Api
+          Properties:
+            Path: /pizzas
+            Method: GET
+  
+Outputs:
+  PizzaApiUrl:
+    Value: !Sub https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/pizzas
+    Description: The URL of your Pizza API Gateway you invoke with a GET request to retrieve a list of pizzas

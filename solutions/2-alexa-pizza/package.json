@@ -1,0 +1,17 @@
+{
+  "name": "1-api-hello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "package": "aws cloudformation package --template-file template.yml --output-template-file output.yml --s3-bucket hello-alexa-milan",
+    "deploy": "aws cloudformation deploy --template-file output.yml --stack-name hello-alexa --capabilities CAPABILITY_IAM",
+    "qd": "npm run package && npm run deploy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "alexa-sdk": "^1.0.25"
+  }
+}
