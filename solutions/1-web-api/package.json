@@ -1,0 +1,17 @@
+{
+  "name": "1-web-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "package": "aws cloudformation package --template-file template.yml --output-template-file output.yml --s3-bucket pizzas-api",
+    "deploy": "aws cloudformation deploy --template-file output.yml --stack-name pizzas-api --capabilities CAPABILITY_IAM",
+    "qd": "npm run package && npm run deploy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.338.0"
+  }
+}
