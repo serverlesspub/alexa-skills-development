@@ -1,5 +1,5 @@
 module.exports = {
-  SKILL_NAME: 'Serverless Pizza Helper',
+  SKILL_NAME: 'Serverless Pizza',
   WELCOME_MESSAGE: 'Welcome to %s. You can ask a question like, what\'s the recipe for a %s? ... Now, what can I help you with?',
   WELCOME_REPROMPT: 'For instructions on what you can say, please say help me.',
   DISPLAY_CARD_TITLE: '%s  - Recipe for %s.',

@@ -1,0 +1,86 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "greeter",
+      "types": [
+
+      ],
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+
+          ]
+        },
+        {
+          "name": "HelloIntent",
+          "slots": [
+
+          ],
+          "samples": [
+            "to say hi",
+            "to say hello",
+            "say hello",
+            "hello",
+            "say hi"
+          ]
+        },
+        {
+          "name": "ListPizzaIntent",
+          "slots": [
+
+          ],
+          "samples": [
+            "to list all pizzas",
+            "to list pizza",
+            "list pizza",
+            "give me a list"
+          ]
+        },
+        {
+          "name": "GetPizzaRecipeIntent",
+          "slots": [
+            {
+              "name": "Pizza",
+              "type": "AMAZON.Food"
+            }
+          ],
+          "samples": [
+            "what's the recipe for {Pizza}",
+            "what is the recipe {Pizza}",
+            "the recipe for {Pizza}",
+            "how do I make {Pizza}"
+          ]
+        },
+        {
+          "name": "GetPizzaByIngredientIntent",
+          "slots": [
+            {
+              "name": "Ingredient",
+              "type": "AMAZON.Food"
+            }
+          ],
+          "samples": [
+            "what pizza has {Ingredient}",
+            "which pizza has {Ingredient}",
+            "in which pizza is {Ingredient}",
+            "list all pizzas that have {Ingredient}",
+            "to list all pizzas that have {Ingredient}"
+          ]
+        }
+      ]
+    }
+  }
+}
