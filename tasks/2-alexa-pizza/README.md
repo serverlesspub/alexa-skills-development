@@ -12,3 +12,5 @@ You have completed your pizza API, but now its time to switch your logic interfa
 ### Goal
 
 Your main goal is to expand this Alexa Skill with an intent to reply with a the static list of pizzas that you are covering.
+
+#### If you have finished, you can go to the next task by clicking [here](../3-alexa-how-to-pizza)
