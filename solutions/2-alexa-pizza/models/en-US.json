@@ -1,0 +1,55 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "greeter",
+      "types": [
+
+      ],
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+
+          ]
+        },
+        {
+          "name": "HelloIntent",
+          "slots": [
+
+          ],
+          "samples": [
+            "to say hi",
+            "to say hello",
+            "say hello",
+            "hello",
+            "say hi"
+          ]
+        },
+        {
+          "name": "ListPizzaIntent",
+          "slots": [
+
+          ],
+          "samples": [
+            "to list all pizza",
+            "to list pizza",
+            "list pizza",
+            "give me a list"
+          ]
+        }
+      ]
+    }
+  }
+}

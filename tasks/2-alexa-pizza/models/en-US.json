@@ -1,0 +1,43 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "greeter",
+      "types": [
+
+      ],
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+
+          ]
+        },
+        {
+          "name": "HelloIntent",
+          "slots": [
+
+          ],
+          "samples": [
+            "to say hi",
+            "to say hello",
+            "say hello",
+            "hello",
+            "say hi"
+          ]
+        }
+      ]
+    }
+  }
+}
