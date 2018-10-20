@@ -1,5 +1,4 @@
-# Hello there
-# Welcome to the Alexa Skills Development Workshop
+# Hello there! Welcome to the Alexa Skills Development Workshop
 
 The workshop is organized in a serie of numbered lessons with:
 
