@@ -1,4 +1,5 @@
-# Hello there! Welcome to the Alexa Skills Development Workshop
+# Hello there
+# Welcome to the Alexa Skills Development Workshop
 
 The workshop is organized in a serie of numbered lessons with:
 
@@ -25,7 +26,7 @@ In case you are not sure or need help you can also check the solutions folder, w
 * [Alexa Developer Console](https://developer.amazon.com/alexa)
 * [Voice Design Guide](https://developer.amazon.com/designing-for-voice)
 
-#### ASK CLI (Alexa Skill Kit)
+#### ASK CLI (Alexa Skill Kit Command Line Interface)
 
 * [Quick Intro and Setup](https://developer.amazon.com/docs/smapi/quick-start-alexa-skills-kit-command-line-interface.html)
 
